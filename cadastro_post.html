@@ -1,0 +1,44 @@
+<!Doctype html>
+<html lang="pt-br">
+<head>
+<title>Formulário de Cadastro</title>
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="css/estilo.css">
+
+</head>
+<body>
+<h1>Cadastro para contato:</h1>
+<form id="cadastro" name="cadastro" method="post" action="cadastro_post.php">
+Campos com <span class="estilo1">*</span> são de preenchimeto obrigatório!
+<table>
+
+<tr>
+<td><span class="estilo1">*</span>Nome:</td>
+<td><input type="text" name="nome" id="nome"></td>
+</tr>
+
+<tr>
+<td>Telefone:</td>
+<td><input type="text" name="telefone" id="telefone" maxlength=11></td>
+</tr>
+
+<tr>
+<td><span class="estilo1">*</span>E-mail:</td>
+<td><input type="text" name="email" id="email"></td>
+</tr>
+
+<tr>
+<td><span class="estilo1">*</span>Cidade:</td>
+<td><input type="text" name="cidade" id="cidade"></td>
+</tr>
+
+<!--botões enviar e limpar-->
+<tr>
+<td><input type="submit" id="cadastrar" value="Concluir meu cadastro"></td>
+<td><input type="reset" id="limpar" value="Limpar tudo"></td>
+</tr>
+
+</table>
+</form>
+</body>
+</html>
